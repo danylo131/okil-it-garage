@@ -16,7 +16,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1 className="text-green-700 flex justify-between font-bold text-5xl">
+          <h1 className="flex justify-between text-5xl font-bold text-green-700">
             Vitya loh
           </h1>
           <p>
