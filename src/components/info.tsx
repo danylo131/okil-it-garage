@@ -23,7 +23,7 @@ import { InfoCard } from "./InfoCard";
 
 export const Info = () => {
   return (
-    <section className="bg-[#F3F3F9] px-6 py-24">
+    <section className="bg-[#F3F3F9] px-6 py-24 hidden">
       <div className="mx-auto grid max-w-6xl grid-cols-3 gap-10">
         <InfoCard
           id="01"
