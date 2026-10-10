@@ -1,3 +1,3 @@
-export default function Footer() {
-    return <div>Hero</div>;
+export const Hero = () => {
+  return <div className="hidden">Hero</div>;
 };
