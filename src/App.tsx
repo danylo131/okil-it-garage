@@ -13,7 +13,7 @@ import { Header } from "./components/header";
 function App() {
   return (
     <>
-      <div className="flex h-full w-full items-center justify-center bg-[#F2F2F7] text-6xl">
+      <div className="flex min-h-svh w-full flex-col bg-[#F2F2F7]">
         <Header />
 
         <Hero />
