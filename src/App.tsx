@@ -3,21 +3,26 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "./assets/vite.svg";
 import "./App.css";
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Info from "./components/info";
-import Map from "./components/map";
-import Footer from "./components/footer";
+
+import { Hero } from "./components/hero";
+import { Info } from "./components/info";
+import { Map } from "./components/map";
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
 
 function App() {
   return (
     <>
-      <div className="flex h-full w-full items-center justify-center text-6xl">
+      <div className="flex h-full w-full items-center justify-center bg-[#F2F2F7] text-6xl">
         <Header />
-        <Hero/>
+
+        <Hero />
+
         <Info />
+
         <Map />
-        <Footer/>
+
+        <Footer />
       </div>
     </>
   );
